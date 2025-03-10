@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ribyryn.github.io',
+	base: '/test_doc',
 	integrations: [
 		starlight({
 			title: 'My Docs',
@@ -16,12 +17,12 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', slug: '/test_doc/guides/example' },
 					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: '/test_doc/reference' },
 				},
 			],
 		}),
