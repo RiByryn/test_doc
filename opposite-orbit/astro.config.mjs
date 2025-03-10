@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ribyryn.github.io/test_doc',
+	base: '/opposite-orbit/',
 	integrations: [
 		starlight({
 			title: 'My Docs',
