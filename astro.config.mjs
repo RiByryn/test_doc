@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://github.com/RiByryn',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'My Docs Test',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
