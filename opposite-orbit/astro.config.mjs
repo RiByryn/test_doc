@@ -16,12 +16,12 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', slug: 'opposite-orbit/src/content/docs/guides/example' },
 					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					autogenerate: { directory: 'opposite-orbit/src/content/docs/reference' },
 				},
 			],
 		}),
